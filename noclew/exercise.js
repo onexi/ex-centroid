@@ -33,7 +33,7 @@ var calculateCentroid = function(points){
     var xSum = 0;
     var ySum = 0;
 
-    proints.forEach( function(el){
+    points.forEach( function(el){
         xSum += el.x;
         ySum += el.y;
     });
